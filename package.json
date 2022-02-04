@@ -1,0 +1,19 @@
+{
+  "name": "wordify",
+  "version": "1.0.0",
+  "description": "wordle, but with song and artist names on your profile.",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "dotenv": "^16.0.0",
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "express": "^4.17.2",
+    "spotify-web-api-node": "^5.0.2"
+  }
+}
